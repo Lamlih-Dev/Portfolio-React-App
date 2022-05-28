@@ -180,6 +180,34 @@ a.nav-link:hover{
         transform: translateY(0px);
     }
 }
+@media screen and (max-width: 991px) {
+    #home .col-md-6 img.main-img{
+        height: 75%;
+    }
+    #home .col-md-6 img.sub1{
+        left: 50px;
+    }
+    #home .col-md-6 img.sub2{
+        right: 50px;
+    }
+    #home .col-md-6 img.sub3{
+        left: 150px;
+    }
+}
+@media screen and (max-width: 767px) {
+    #home .col-md-6 img.main-img{
+        height: 70%;
+    }
+    #home .col-md-6 img.sub1{
+        left: 90px;
+    }
+    #home .col-md-6 img.sub2{
+        right: 90px;
+    }
+    #home .col-md-6 img.sub3{
+        left: 210px;
+    }
+}
 #home h4 span{
     color: #F0B1AC;
 }
